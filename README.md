@@ -6,7 +6,7 @@ Gubluu is a human-like AI assistant that communicates naturally in English, Beng
 
 ## Status
 
-🚧 **Pre-Alpha** — Milestone 1: Project Scaffold
+🚧 **Pre-Alpha** — Milestone 1: Project Scaffold 
 
 ## Quick Start
 
