@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────
+# Gubluu — Default Configuration
+# ─────────────────────────────────────────────
+# This file contains all default settings.
+# Override in development.toml, production.toml, or via environment variables.
+# Environment variables use the prefix GUBLUU_ (e.g., GUBLUU_LLM__DEFAULT_PROVIDER=openai)
+
+[app]
+name = "Gubluu"
+version = "1.0.0-alpha.1"
+debug = false
+data_dir = "data"                        # Relative to project root (dev) or %LOCALAPPDATA%/Gubluu (prod)
+
+[app.personality]
+name = "Gubluu"
+default_language = "english"             # english | bengali | mixed
+tone = "friendly"                        # friendly | professional | casual
+
+# [llm]
+# default_provider = "gemini"            # openai | gemini | ollama
+# fallback_provider = "ollama"
+# max_context_tokens = 8192
+# temperature = 0.7
+# streaming = true
+#
+# [llm.openai]
+# model = "gpt-4o-mini"
+# api_key_env = "OPENAI_API_KEY"         # Name of env var (never store keys in config)
+#
+# [llm.gemini]
+# model = "gemini-1.5-flash"
+# api_key_env = "GOOGLE_API_KEY"
+#
+# [llm.ollama]
+# model = "llama3.1:8b"
+# base_url = "http://localhost:11434"
+
+# [voice]
+# enabled = false
+# wake_word = "hey gubluu"
+# stt_engine = "faster-whisper"          # faster-whisper | google
+# stt_model = "base"                     # tiny | base | small | medium | large-v3
+# tts_engine = "edge-tts"               # edge-tts | piper
+# tts_voice_en = "en-US-GuyNeural"
+# tts_voice_bn = "bn-BD-PradeepNeural"
+# silence_threshold = 0.5               # Seconds of silence before stopping recording
+# listen_timeout = 30                   # Max listen duration in seconds
+
+# [memory]
+# enabled = true
+# max_memories = 10000
+# decay_days = 30                       # Days before memory confidence decays
+# consolidation_interval = 3600         # Seconds between consolidation runs
+
+# [security]
+# confirmation_timeout = 30             # Seconds before confirmation dialog times out
+# audit_retention_days = 90             # Days to keep audit log entries
+# blocked_paths = ["C:\\Windows", "C:\\Program Files"]
+
+[logging]
+level = "INFO"                           # DEBUG | INFO | WARNING | ERROR
+format = "console"                       # console | json
+file_enabled = true
+file_path = "data/logs/gubluu.log"
+max_file_size_mb = 10
+backup_count = 5

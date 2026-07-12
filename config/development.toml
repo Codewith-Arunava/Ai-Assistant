@@ -1,0 +1,12 @@
+# ─────────────────────────────────────────────
+# Gubluu — Development Configuration Overrides
+# ─────────────────────────────────────────────
+# These settings override default.toml during development.
+
+[app]
+debug = true
+data_dir = "data"
+
+[logging]
+level = "DEBUG"
+format = "console"
