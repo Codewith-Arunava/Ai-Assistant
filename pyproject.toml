@@ -1,7 +1,7 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
+ 
 [project]
 name = "gubluu"
 version = "1.0.0-alpha.1"
