@@ -10,7 +10,7 @@ __pycache__/
 *.egg 
 dist/
 build/
-*.whl
+*.whl 
 
 # Virtual environments
 .venv/
