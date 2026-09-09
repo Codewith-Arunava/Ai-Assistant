@@ -16,7 +16,7 @@ Gubluu is a human-like AI assistant that communicates naturally in English, Beng
 - [uv](https://docs.astral.sh/uv/) (recommended) or pip 
  
 ### Setup  
-
+ 
 ```powershell
 # Clone the repository
 git clone <repo-url>
