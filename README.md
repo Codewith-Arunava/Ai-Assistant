@@ -13,7 +13,7 @@ Gubluu is a human-like AI assistant that communicates naturally in English, Beng
 ### Prerequisites
 
 - Python 3.12+
-- [uv](https://docs.astral.sh/uv/) (recommended) or pip
+- [uv](https://docs.astral.sh/uv/) (recommended) or pip 
  
 ### Setup 
 
