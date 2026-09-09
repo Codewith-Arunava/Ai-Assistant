@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
  
 [project]
-name = "gubluu"
+name = "gubluu" 
 version = "1.0.0-alpha.1"
 description = "Gubluu — A production-grade AI desktop companion for Windows 11"
 readme = "README.md"
